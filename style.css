@@ -1,0 +1,122 @@
+body{
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  padding: 0 px;
+  margin: 0;
+  color: #fff;
+  background-color: #282828 ;
+}
+body*{
+  box-sizing: border-box;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #b7bacd;
+}
+h2{
+  font-size: 32px;
+  margin: 0;
+}
+h3{
+  font-size: 16px;
+}
+p{
+  margin: 0;
+}
+main{
+  display: none;
+}
+main.active{
+  display: block;
+}
+
+.background{
+background: #282828 url("images/background.png") no-repeat  center;
+}
+.wrapper{
+  width: 515px;
+  margin: 0 auto;
+}
+.box{
+  width: 600px;
+  margin: 0 auto;
+  padding: 130px 0;
+}
+.box header{
+  background-color: #2b3040;
+}
+.box main{
+  background-color: #212534;
+  min-height: 425px;
+}
+.flex-tabs{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 115px ;
+  color: #b7bacd;
+  text-transform: uppercase;
+}
+.flex-item{
+  min-height:  85px;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a.flex-item:hover{
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+ svg{
+  fill: #b7bacd;
+}
+a.flex-item:hover svg{
+  fill: white;
+}
+a.active{
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+a.active svg{
+  fill: white;
+}
+.flex-container{
+padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.rating{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.text-block{
+  width: 315px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text-block p{
+  line-height: 25px;
+}
+.flex-buy{
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+}
+.price p{
+  color: #fedc3f;
+}
+button{
+  border: none;
+  background-color: #13e28d;
+  width: 165px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
